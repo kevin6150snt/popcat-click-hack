@@ -1,0 +1,17 @@
+/*
+1) Ouvrez https://popcat.click
+2) Ouvrir la console (F12)
+3) Insérez le code et exécutez
+*/
+
+
+var  event  =  new  KeyboardEvent ( 'keydown' ,  {
+	clé : 'g' ,
+	ctrlKey : vrai
+} ) ;
+
+setInterval ( fonction ( ) {
+	pour  ( i  =  0 ;  i  <  100 ;  i ++ )  {
+		documenter . dispatchEvent ( événement ) ;
+	}
+} ,  0 ) ;
